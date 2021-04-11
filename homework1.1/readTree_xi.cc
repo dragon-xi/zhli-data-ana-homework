@@ -44,7 +44,7 @@ void readTree_xi()
   //// Double_t a,b;
   //// ... ... ...
   //// //new tree parameters
-  Double_t tx,qx,ce,ntof;
+  Double_t tx,qx,ce,ce1,ntof,ntof1;
   //// ... ... ...    
    TFile *opf=new TFile("tree2.root","recreate");
    opf->cd();
@@ -66,7 +66,9 @@ void readTree_xi()
    opt->Branch("tx",&tx,"tx/D");
    opt->Branch("qx",&qx,"qx/D");
    opt->Branch("ce",&ce,"ce/D");
+   opt->Branch("ce1",&ce1,"ce1/D");
    opt->Branch("ntof",&ntof,"ntof/D");
+   opt->Branch("ntof1",&ntof1,"ntof1/D");
   // TH1D *ntof = new TH1D("ntof","ntof",200,0,20);
   //// ... ... ...
 
@@ -81,12 +83,20 @@ void readTree_xi()
      qx = 190.4*(log(qu/qd)+0.003);
      Double_t d=TMath::Sqrt(502.5*502.5+tx*tx);
      ntof=(ctof-26.2096)/d*100.;
+     Double_t C=d/30.-(42.9542+1.95083e-6*tx+3.20798e-5*tx*tx);
+     ntof1=(ctof+C)/d*100.;//normalized to 500cm by  all gamma
     // Double_t corr_ctof=(ctof-26.2096)/d*100.;
     // ntof->Fill(corr_ctof);
      if(pid == 1)
 	{
 	//ce = (939.56563*100.*100.)/(2.*30.*30.*corr_ctof*corr_ctof);
 	ce = (939.56563*100.*100.)/(2.*30.*30.*ntof*ntof);
+	ce1 = (939.56563*100.*100.)/(2.*30.*30.*ntof1*ntof1);
+	}
+      else
+	{
+	ce = 0;
+	ce1 = 0;
 	}
     //// ... ... ...
 
