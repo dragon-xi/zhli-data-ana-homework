@@ -11,6 +11,8 @@
 ## homework 1.2
 - 用tree-makeclass的方法，将veto信息加入到代码，并生成新的root文件，[homework1.2](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.2/homework1-2.html)
 - 生成新root文件代码[treeADC_xi.h](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.2/treeADC_xi.h)和[treeADC_xi.C](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.2/treeADC_xi.C)
+
+# Chapter 2 PPAC数据处理
 ## homework 2.1
 ### example
  - [exercise2.1](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/example/exercise2.1.html):以PPAC数据为例，对数据粗略浏览、挑选有效事件，排除偶然符合事件；
