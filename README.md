@@ -1,9 +1,10 @@
 # zhli-data-ana-homework
 # Chapter 1 ROOT TTree 初阶
 ## homework 1.1
-### 参考代码[tree.cc](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/tree.cc)和[readTree.cc](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/tree.cc)
-- $t_{x}$，[homework1.1-1](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-1.html)
-- $q_{x}$，[homework1.1-2](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-2.html)
+**参考代码[tree.cc](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/tree.cc)和[readTree.cc](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/tree.cc)将新参数存入新的ROOT文件**
+- 1. 利用两端时间和能量信息求出入射粒子位置：$t_{x}$和$q_{x}$。注意：不得使用$\lamda$与$v_{sc}$
+  - 找出tu-td的中心位置和两侧边界，根据几何条件确定tx = a * (tu - td) + b 中的a, b值：[homework1.1-1](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-1.html)
+  - 利用两端qu，qd的信号，计算入射位置$q_{x}$：[homework1.1-2](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-2.html)
 - TOF 刻度，[homework1.1-3](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-3.html)
 - TOF 归一，[homework1.1-4](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-4.html)
 - 生成新root，[homework1.1-sum](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-sum.html)
