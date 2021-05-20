@@ -17,14 +17,14 @@
 - 3 通过数据分析，验证薄塑料闪烁体可作为带电粒子的veto探测器：[homework1.2](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.2/homework1-2.html)；
 
 # Chapter 2 PPAC数据处理
- - 1 本章内容
- - [exercise2.1](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/example_li/exercise2.1.html):以PPAC数据为例，对数据粗略浏览、挑选有效事件，排除偶然符合事件；
- - [exercise2.2](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/example_li/exercise2.2.html):利用MakeClass生成的.C与.h文件，将分析代码写入其中，调用函数分析数据；
- - [exercise2.3](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/example_li/exercise2.3.html):利用MakeClass生成的.C与.h文件，用Makefile（main.cpp）编写可执行程序；
- - [exercise2.4](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/example_li/exercise2.4.html):跳出MakeClass的限制，编写新的ana.C, ana.h, main.cpp文件并继承MakeClass生成的.C与.h文件，，用Makefile编写可执行程序；
+- 1 本章内容
+  - [exercise2.1](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/example_li/exercise2.1.html):以PPAC数据为例，对数据粗略浏览、挑选有效事件，排除偶然符合事件；
+  - [exercise2.2](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/example_li/exercise2.2.html):利用MakeClass生成的.C与.h文件，将分析代码写入其中，调用函数分析数据；
+  - [exercise2.3](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/example_li/exercise2.3.html):利用MakeClass生成的.C与.h文件，用Makefile（main.cpp）编写可执行程序；
+  - [exercise2.4](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/example_li/exercise2.4.html):跳出MakeClass的限制，编写新的ana.C, ana.h, main.cpp文件并继承MakeClass生成的.C与.h文件，，用Makefile编写可执行程序；
 ## homework 2.1
- - 1 利用三个F8PPAC的所有位置信息，构建粒子径迹，并按照靶的几何条件（45度），给出两种触发下靶面上的targetx和targety；[分析代码](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/homework2.1_Code.html)
+- 1 利用三个F8PPAC的所有位置信息，构建粒子径迹，并按照靶的几何条件（45度），给出两种触发下靶面上的targetx和targety；[分析代码](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/homework2.1_Code.html)
   - a 记录参与确定径迹的探测器的数目以及探测器组合，chi2/ndf，每个探测器的残差分布；[检查残差](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/homework2.1_Chi2.html)
   - b 计算束流打在给定靶大小范围内的比例；[重构靶](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/homework2.1_targetpos.html)
- - 2 求出PPAC1a, PPAC3的x, y, x-y的探测效率，用阳极信号以及两种不同探测器组合，确定入射粒子数目，验证所求效率值相近；[效率计算](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/homework2.1_efficiency.html)
- - 3 求出各个探测器的位置分辨率，以及靶上位置分辨率。（未完成）
+- 2 求出PPAC1a, PPAC3的x, y, x-y的探测效率，用阳极信号以及两种不同探测器组合，确定入射粒子数目，验证所求效率值相近；[效率计算](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/homework2.1_efficiency.html)
+- 3 求出各个探测器的位置分辨率，以及靶上位置分辨率。（未完成）
