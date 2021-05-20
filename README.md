@@ -28,3 +28,18 @@
   - b 计算束流打在给定靶大小范围内的比例；[重构靶](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/homework2.1_targetpos.html)
 - 2 求出PPAC1a, PPAC3的x, y, x-y的探测效率，用阳极信号以及两种不同探测器组合，确定入射粒子数目，验证所求效率值相近；[效率计算](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/homework2.1_efficiency.html)
 - 3 求出各个探测器的位置分辨率，以及靶上位置分辨率。（未完成）
+
+# Chapter 2 DSSD数据处理
+## 本章内容
+ - TSpectrum and map用法；
+ - DSSD能量刻度；
+ - Hit结构
+## homework 3.1
+- 1 在pe信号中加入随机数，对所有48条进行能量刻度
+  - a 将带有gauss拟合曲线的所有条的TH1，刻度后的所有条的TH1，保存到一个ROOT文件中；
+  - b 分析每个条的sigma和拟合 χ2/ndf ,根据结果调整拟合策略；
+  - 画出 FWHM-条id的关系图，并放在一个TGraph上；
+  - 将刻度后所有条的能谱填在一个TH1上，分析拟合的好坏；
+- 2 将刻度前和刻度后的数据转换成hit结构
+  -  画出刻度前和刻度后pie面所有条的能量分布；
+
