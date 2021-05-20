@@ -12,8 +12,9 @@
   - [homework1.1-sum](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-sum.html)：总结，在新文件中加入tx，qx，ntof，ce参数，并保留原来的所有参数；
   - [生成新root代码](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/readTree_xi.cc)
 ## homework 1.2
-- 用tree-makeclass的方法，将veto信息加入到代码，并生成新的root文件，[homework1.2](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.2/homework1-2.html)
-- 生成新root文件代码[treeADC_xi.h](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.2/treeADC_xi.h)和[treeADC_xi.C](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.2/treeADC_xi.C)
+- 1 利用[treeADC.cc](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.2/treeADC.cc)代码生成root文件，并度入该文件；
+- 2 用tree-makeclass的方法，将上述信息（加一个veto探测器，中子和gamma不产生信号，带电粒子穿过有信号并为原来的1/10）加入到代码，并生成新的root文件，生成新root文件代码[treeADC_xi.h](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.2/treeADC_xi.h)和[treeADC_xi.C](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.2/treeADC_xi.C)
+- 3 通过数据分析，验证薄塑料闪烁体可作为带电粒子的veto探测器：[homework1.2](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.2/homework1-2.html)；
 
 # Chapter 2 PPAC数据处理
 ## homework 2.1
