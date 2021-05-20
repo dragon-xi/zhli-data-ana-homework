@@ -9,7 +9,7 @@
   - TOF 刻度，
   - [homework1.1-3](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-3.html)：利用TOF中的$\gamma$峰位置，对TOF进行绝对的刻度（找到飞行时间零点）；
   - [homework1.1-4](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-4.html)：对TOF进行常数修正，将飞行距离归一到100 cm，生成新的TOF参数ntof；计算中子能量ce；
-  - [homework1.1-sum](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-sum.html)：总结；
+  - [homework1.1-sum](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-sum.html)：总结，在新文件中加入tx，qx，ntof，ce参数，并保留原来的所有参数；
   - [生成新root代码](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/readTree_xi.cc)
 ## homework 1.2
 - 用tree-makeclass的方法，将veto信息加入到代码，并生成新的root文件，[homework1.2](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.2/homework1-2.html)
