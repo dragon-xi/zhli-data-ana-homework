@@ -17,7 +17,7 @@
 - 3 通过数据分析，验证薄塑料闪烁体可作为带电粒子的veto探测器：[homework1.2](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.2/homework1-2.html)；
 
 # Chapter 2 PPAC数据处理
-- 1 本章内容
+## 本章内容
   - [exercise2.1](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/example_li/exercise2.1.html):以PPAC数据为例，对数据粗略浏览、挑选有效事件，排除偶然符合事件；
   - [exercise2.2](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/example_li/exercise2.2.html):利用MakeClass生成的.C与.h文件，将分析代码写入其中，调用函数分析数据；
   - [exercise2.3](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/example_li/exercise2.3.html):利用MakeClass生成的.C与.h文件，用Makefile（main.cpp）编写可执行程序；
