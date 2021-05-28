@@ -32,7 +32,7 @@
 
 # Chapter 2 DSSD数据处理
 ## 本章内容
- - TSpectrum and map用法；
+ - [TSpectrum and map用法；](https://dragon-xi.github.io/zhli-data-ana-homework/homework3.1/example3_1.html)
  - DSSD能量刻度；
  - Hit结构
 ## homework 3.1
