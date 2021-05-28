@@ -30,7 +30,7 @@
 - 2 求出PPAC1a, PPAC3的x, y, x-y的探测效率，用阳极信号以及两种不同探测器组合，确定入射粒子数目，验证所求效率值相近；[效率计算](https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/homework2.1_efficiency.html)
 - 3 求出各个探测器的位置分辨率，以及靶上位置分辨率。（未完成）
 
-# Chapter 2 DSSD数据处理
+# Chapter 3 DSSD数据处理
 ## 本章内容
  - [TSpectrum and map用法；](https://dragon-xi.github.io/zhli-data-ana-homework/homework3.1/example3_1.html)
  - DSSD能量刻度(请看homework 3.1第一部分)；
