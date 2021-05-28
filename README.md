@@ -33,14 +33,14 @@
 # Chapter 2 DSSD数据处理
 ## 本章内容
  - [TSpectrum and map用法；](https://dragon-xi.github.io/zhli-data-ana-homework/homework3.1/example3_1.html)
- - DSSD能量刻度；
- - Hit结构
+ - DSSD能量刻度(请看homework 3.1第一部分)；
+ - Hit结构(请看homework 3.1第二部分)；
 ## homework 3.1
-- 1 在pe信号中加入随机数，对所有48条进行能量刻度
+- 1 在pe信号中加入随机数，对所有48条进行能量刻度（[dithering](https://dragon-xi.github.io/zhli-data-ana-homework/homework3.1/homework3.1_1_dithering.html)和[fit+cali](https://dragon-xi.github.io/zhli-data-ana-homework/homework3.1/homework3.1_2_cali.html)）
   - a 将带有gauss拟合曲线的所有条的TH1，刻度后的所有条的TH1，保存到一个ROOT文件中；
   - b 分析每个条的sigma和拟合 χ2/ndf ,根据结果调整拟合策略；
   - 画出 FWHM-条id的关系图，并放在一个TGraph上；
   - 将刻度后所有条的能谱填在一个TH1上，分析拟合的好坏；
-- 2 将刻度前和刻度后的数据转换成hit结构
+- 2 将刻度前和刻度后的数据转换成hit结构([hit structure](https://dragon-xi.github.io/zhli-data-ana-homework/homework3.1/homework3.1_3_hitstuc.html))
   -  画出刻度前和刻度后pie面所有条的能量分布；
 
