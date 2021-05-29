@@ -43,4 +43,8 @@
   - 将刻度后所有条的能谱填在一个TH1上，分析拟合的好坏；
 - 2 将刻度前和刻度后的数据转换成hit结构([hit structure](https://dragon-xi.github.io/zhli-data-ana-homework/homework3.1/homework3.1_3_hitstuc.html))
   -  画出刻度前和刻度后pie面所有条的能量分布；
+## homework 3.2
+- 1 对dssd1，dssd2，dssd3进行正、背面刻度；
+- 2 将刻度后的事件记录成hit结构，每个探测器的正背面信号由大到小进行排序；
+- 3 处理xhit==3 && yhit==3的事件，并根据正背面关联条件匹配x-y面事件，重新组织hit结构；
 
