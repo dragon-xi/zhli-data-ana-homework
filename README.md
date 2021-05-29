@@ -1,5 +1,5 @@
 # zhli-data-ana-homework
-# [ROOT命令个人总结（20210520）](https://dragon-xi.github.io/zhli-data-ana-homework/roottips_xi_20210520.html)
+[ROOT命令个人总结（20210529）](https://dragon-xi.github.io/zhli-data-ana-homework/roottips_xi.html)
 # Chapter 1 ROOT TTree 初阶
 ## homework 1.1
 参考代码[tree.cc](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/tree.cc)和[readTree.cc](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/tree.cc)将新参数存入新的ROOT文件
