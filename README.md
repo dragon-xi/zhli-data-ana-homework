@@ -5,7 +5,7 @@
 - [《核物理与粒子物理实验方法》](https://zhihuanli.github.io/Experimental-Method-in-Nuclear-Physics/)
 - [《核物理实验数据分析与处理》](https://zhihuanli.github.io/Experimental-Data-Analysis-Course/)
 ## 本人完成作业期间汇总的ROOT代码
-- [ROOT命令个人总结（20210529）](https://dragon-xi.github.io/zhli-data-ana-homework/roottips_xi.html)
+- [ROOT命令个人总结](https://dragon-xi.github.io/zhli-data-ana-homework/roottips_xi.html)
 # Chapter 1 ROOT TTree 初阶
 ## homework 1.1
 参考代码[tree.cc](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/tree.cc)和[readTree.cc](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/tree.cc)将新参数存入新的ROOT文件
