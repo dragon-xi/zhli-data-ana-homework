@@ -41,6 +41,10 @@
  - [TSpectrum and map用法；](https://dragon-xi.github.io/zhli-data-ana-homework/homework3.1/example3_1.html)
  - DSSD能量刻度(请看homework 3.1第一部分)；
  - Hit结构(请看homework 3.1第二部分)；
+ - [DSSD条间事件刻度修正；](https://dragon-xi.github.io/zhli-data-ana-homework/homework3.1/example3_3.html)
+ - DSSD正背面关联-归一；
+   - [方法一](https://dragon-xi.github.io/zhli-data-ana-homework/homework3.2/example3_4.html)
+   - [方法二](https://dragon-xi.github.io/zhli-data-ana-homework/homework3.2/example3_5.html)
 ## homework 3.1
 - 1 在pe信号中加入随机数，对所有48条进行能量刻度（[dithering](https://dragon-xi.github.io/zhli-data-ana-homework/homework3.1/homework3.1_1_dithering.html)和[fit+cali](https://dragon-xi.github.io/zhli-data-ana-homework/homework3.1/homework3.1_2_cali.html)）
   - a 将带有gauss拟合曲线的所有条的TH1，刻度后的所有条的TH1，保存到一个ROOT文件中；
@@ -53,4 +57,3 @@
 - 1 对dssd1，dssd2，dssd3进行正、背面刻度；
 - 2 将刻度后的事件记录成hit结构，每个探测器的正背面信号由大到小进行排序；
 - 3 处理xhit==3 && yhit==3的事件，并根据正背面关联条件匹配x-y面事件，重新组织hit结构；
-
