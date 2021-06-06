@@ -8,11 +8,11 @@
 
 - [《核物理与粒子物理实验方法》](https://zhihuanli.github.io/Experimental-Method-in-Nuclear-Physics/)
 - [《核物理实验数据分析与处理》](https://zhihuanli.github.io/Experimental-Data-Analysis-Course/)
-- 
+
 ## 本人完成作业期间汇总的ROOT代码
 
 - [ROOT命令个人总结](https://dragon-xi.github.io/zhli-data-ana-homework/roottips_xi.html)
-- 
+
 # Chapter 1 ROOT TTree 初阶
 
 ## homework 1.1
@@ -27,7 +27,7 @@
   - [homework1.1-4](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-4.html)：对TOF进行常数修正，将飞行距离归一到100 cm，生成新的TOF参数ntof；计算中子能量ce；
   - [homework1.1-sum](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-sum.html)：总结，在新文件中加入tx，qx，ntof，ce参数，并保留原来的所有参数；
   - [生成新root代码](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/readTree_xi.cc)
-  - 
+ 
 ## homework 1.2
 
 - 1 利用[treeADC.cc](https://dragon-xi.github.io/zhli-data-ana-homework/homework1.2/treeADC.cc)代码生成root文件，并度入该文件；
