@@ -14296,9 +14296,9 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="&#20855;&#20307;&#27493;&#39588;">&#20855;&#20307;&#27493;&#39588;<a class="anchor-link" href="#&#20855;&#20307;&#27493;&#39588;">&#182;</a></h2><h3 id="&#30830;&#23450;&#27599;&#20010;&#25506;&#27979;&#22120;&#27491;&#32972;&#38754;&#65288;&#38750;&#21333;&#26465;&#65289;&#20851;&#32852;&#30340;&#22823;&#33268;&#33539;&#22260;&#24182;&#23384;&#25104;cut.C&#25991;&#20214;">&#30830;&#23450;&#27599;&#20010;&#25506;&#27979;&#22120;&#27491;&#32972;&#38754;&#65288;&#38750;&#21333;&#26465;&#65289;&#20851;&#32852;&#30340;&#22823;&#33268;&#33539;&#22260;&#24182;&#23384;&#25104;cut.C&#25991;&#20214;<a class="anchor-link" href="#&#30830;&#23450;&#27599;&#20010;&#25506;&#27979;&#22120;&#27491;&#32972;&#38754;&#65288;&#38750;&#21333;&#26465;&#65289;&#20851;&#32852;&#30340;&#22823;&#33268;&#33539;&#22260;&#24182;&#23384;&#25104;cut.C&#25991;&#20214;">&#182;</a></h3><div class="highlight"><pre><span></span><span class="n">gROOT</span><span class="o">-&gt;</span><span class="n">Macro</span><span class="p">(</span><span class="s">&quot;cut1.C&quot;</span><span class="p">);</span>
+<h2 id="&#20855;&#20307;&#27493;&#39588;">&#20855;&#20307;&#27493;&#39588;<a class="anchor-link" href="#&#20855;&#20307;&#27493;&#39588;">&#182;</a></h2><h3 id="1.-&#30830;&#23450;&#27599;&#20010;&#25506;&#27979;&#22120;&#27491;&#32972;&#38754;&#65288;&#38750;&#21333;&#26465;&#65289;&#20851;&#32852;&#30340;&#22823;&#33268;&#33539;&#22260;&#24182;&#23384;&#25104;cut.C&#25991;&#20214;">1. &#30830;&#23450;&#27599;&#20010;&#25506;&#27979;&#22120;&#27491;&#32972;&#38754;&#65288;&#38750;&#21333;&#26465;&#65289;&#20851;&#32852;&#30340;&#22823;&#33268;&#33539;&#22260;&#24182;&#23384;&#25104;cut.C&#25991;&#20214;<a class="anchor-link" href="#1.-&#30830;&#23450;&#27599;&#20010;&#25506;&#27979;&#22120;&#27491;&#32972;&#38754;&#65288;&#38750;&#21333;&#26465;&#65289;&#20851;&#32852;&#30340;&#22823;&#33268;&#33539;&#22260;&#24182;&#23384;&#25104;cut.C&#25991;&#20214;">&#182;</a></h3><div class="highlight"><pre><span></span><span class="n">gROOT</span><span class="o">-&gt;</span><span class="n">Macro</span><span class="p">(</span><span class="s">&quot;cut1.C&quot;</span><span class="p">);</span>
 </pre></div>
-<h3 id="&#25214;&#21040;&#27599;&#20010;&#25506;&#27979;&#22120;x&#21644;y&#38754;&#20013;&#35745;&#25968;&#26368;&#39640;&#30340;&#26465;&#30340;&#32534;&#21495;">&#25214;&#21040;&#27599;&#20010;&#25506;&#27979;&#22120;x&#21644;y&#38754;&#20013;&#35745;&#25968;&#26368;&#39640;&#30340;&#26465;&#30340;&#32534;&#21495;<a class="anchor-link" href="#&#25214;&#21040;&#27599;&#20010;&#25506;&#27979;&#22120;x&#21644;y&#38754;&#20013;&#35745;&#25968;&#26368;&#39640;&#30340;&#26465;&#30340;&#32534;&#21495;">&#182;</a></h3><p><strong>example:</strong></p>
+<h3 id="2.-&#25214;&#21040;&#27599;&#20010;&#25506;&#27979;&#22120;x&#21644;y&#38754;&#20013;&#35745;&#25968;&#26368;&#39640;&#30340;&#26465;&#30340;&#32534;&#21495;">2. &#25214;&#21040;&#27599;&#20010;&#25506;&#27979;&#22120;x&#21644;y&#38754;&#20013;&#35745;&#25968;&#26368;&#39640;&#30340;&#26465;&#30340;&#32534;&#21495;<a class="anchor-link" href="#2.-&#25214;&#21040;&#27599;&#20010;&#25506;&#27979;&#22120;x&#21644;y&#38754;&#20013;&#35745;&#25968;&#26368;&#39640;&#30340;&#26465;&#30340;&#32534;&#21495;">&#182;</a></h3><p><strong>example:</strong></p>
 <div class="highlight"><pre><span></span><span class="n">THStack</span> <span class="o">*</span><span class="n">hs1</span> <span class="o">=</span> <span class="k">new</span> <span class="n">THStack</span><span class="p">(</span><span class="s">&quot;hs1&quot;</span><span class="p">,</span><span class="s">&quot;DSSD1: Counts in strips&quot;</span><span class="p">);</span>
 <span class="n">tree</span><span class="o">-&gt;</span><span class="n">Draw</span><span class="p">(</span><span class="s">&quot;d1xs&gt;&gt;h1xs(32,0,32)&quot;</span><span class="p">,</span><span class="s">&quot;d1xhit==1 &amp;&amp; d1yhit==1&quot;</span><span class="p">);</span>
 <span class="n">tree</span><span class="o">-&gt;</span><span class="n">Draw</span><span class="p">(</span><span class="s">&quot;d1ys&gt;&gt;h1ys(32,0,32)&quot;</span><span class="p">,</span><span class="s">&quot;d1xhit==1 &amp;&amp; d1yhit==1&quot;</span><span class="p">);</span>
@@ -14316,7 +14316,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="&#23558;&#28385;&#36275;&#25152;&#38656;&#26465;&#20214;&#30340;x-y&#20851;&#32852;&#20107;&#20214;&#20197;TGraph&#24418;&#24335;&#23384;&#20837;&#26032;ROOT&#25991;&#20214;&#65288;&#22914;&#65306;gdet1.root&#65289;">&#23558;&#28385;&#36275;&#25152;&#38656;&#26465;&#20214;&#30340;x-y&#20851;&#32852;&#20107;&#20214;&#20197;TGraph&#24418;&#24335;&#23384;&#20837;&#26032;ROOT&#25991;&#20214;&#65288;&#22914;&#65306;gdet1.root&#65289;<a class="anchor-link" href="#&#23558;&#28385;&#36275;&#25152;&#38656;&#26465;&#20214;&#30340;x-y&#20851;&#32852;&#20107;&#20214;&#20197;TGraph&#24418;&#24335;&#23384;&#20837;&#26032;ROOT&#25991;&#20214;&#65288;&#22914;&#65306;gdet1.root&#65289;">&#182;</a></h3><p><strong>条件如</strong></p>
+<h3 id="3.-&#23558;&#28385;&#36275;&#25152;&#38656;&#26465;&#20214;&#30340;x-y&#20851;&#32852;&#20107;&#20214;&#20197;TGraph&#24418;&#24335;&#23384;&#20837;&#26032;ROOT&#25991;&#20214;&#65288;&#22914;&#65306;gdet1.root&#65289;">3. &#23558;&#28385;&#36275;&#25152;&#38656;&#26465;&#20214;&#30340;x-y&#20851;&#32852;&#20107;&#20214;&#20197;TGraph&#24418;&#24335;&#23384;&#20837;&#26032;ROOT&#25991;&#20214;&#65288;&#22914;&#65306;gdet1.root&#65289;<a class="anchor-link" href="#3.-&#23558;&#28385;&#36275;&#25152;&#38656;&#26465;&#20214;&#30340;x-y&#20851;&#32852;&#20107;&#20214;&#20197;TGraph&#24418;&#24335;&#23384;&#20837;&#26032;ROOT&#25991;&#20214;&#65288;&#22914;&#65306;gdet1.root&#65289;">&#182;</a></h3><p><strong>条件如</strong></p>
 <ul>
 <li><ol>
 <li>在cut.C内；</li>
@@ -14362,7 +14362,7 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="&#20197;y&#26041;&#21521;ys&#26465;&#20026;&#26631;&#20934;&#21051;&#24230;x&#26041;&#21521;xrange[0]-xrange[1]">&#20197;y&#26041;&#21521;ys&#26465;&#20026;&#26631;&#20934;&#21051;&#24230;x&#26041;&#21521;xrange[0]-xrange[1]<a class="anchor-link" href="#&#20197;y&#26041;&#21521;ys&#26465;&#20026;&#26631;&#20934;&#21051;&#24230;x&#26041;&#21521;xrange[0]-xrange[1]">&#182;</a></h3><p><strong>example:</strong></p>
+<h3 id="4.-&#20197;y&#26041;&#21521;ys&#26465;&#20026;&#26631;&#20934;&#21051;&#24230;x&#26041;&#21521;xrange[0]-xrange[1]">4. &#20197;y&#26041;&#21521;ys&#26465;&#20026;&#26631;&#20934;&#21051;&#24230;x&#26041;&#21521;xrange[0]-xrange[1]<a class="anchor-link" href="#4.-&#20197;y&#26041;&#21521;ys&#26465;&#20026;&#26631;&#20934;&#21051;&#24230;x&#26041;&#21521;xrange[0]-xrange[1]">&#182;</a></h3><p><strong>example:</strong></p>
 <div class="highlight"><pre><span></span><span class="c1">//刻度准备</span>
 <span class="n">TGraph</span> <span class="o">*</span><span class="n">grxc</span><span class="p">[</span><span class="mi">32</span><span class="p">];</span>
 <span class="n">TF1</span> <span class="o">*</span><span class="n">fpa1</span><span class="o">=</span> <span class="k">new</span> <span class="n">TF1</span><span class="p">(</span><span class="s">&quot;fp1&quot;</span><span class="p">,</span><span class="s">&quot;pol1&quot;</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">8000</span><span class="p">);</span>
@@ -14420,7 +14420,8 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="&#21512;&#24182;xrange&#33539;&#22260;&#20869;&#25968;&#25454;&#65292;&#29992;&#27531;&#24046;&#20851;&#32852;&#22270;&#26816;&#39564;&#21051;&#24230;&#25928;&#26524;">&#21512;&#24182;xrange&#33539;&#22260;&#20869;&#25968;&#25454;&#65292;&#29992;&#27531;&#24046;&#20851;&#32852;&#22270;&#26816;&#39564;&#21051;&#24230;&#25928;&#26524;<a class="anchor-link" href="#&#21512;&#24182;xrange&#33539;&#22260;&#20869;&#25968;&#25454;&#65292;&#29992;&#27531;&#24046;&#20851;&#32852;&#22270;&#26816;&#39564;&#21051;&#24230;&#25928;&#26524;">&#182;</a></h3><div class="highlight"><pre><span></span><span class="c1">//查看残差</span>
+<h3 id="5.-&#21512;&#24182;xrange&#33539;&#22260;&#20869;&#25968;&#25454;&#65292;&#29992;&#27531;&#24046;&#20851;&#32852;&#22270;&#26816;&#39564;&#21051;&#24230;&#25928;&#26524;">5. &#21512;&#24182;xrange&#33539;&#22260;&#20869;&#25968;&#25454;&#65292;&#29992;&#27531;&#24046;&#20851;&#32852;&#22270;&#26816;&#39564;&#21051;&#24230;&#25928;&#26524;<a class="anchor-link" href="#5.-&#21512;&#24182;xrange&#33539;&#22260;&#20869;&#25968;&#25454;&#65292;&#29992;&#27531;&#24046;&#20851;&#32852;&#22270;&#26816;&#39564;&#21051;&#24230;&#25928;&#26524;">&#182;</a></h3><p><strong>example:</strong></p>
+<div class="highlight"><pre><span></span><span class="c1">//查看残差</span>
 <span class="n">TGraph</span> <span class="o">*</span><span class="n">grsumx</span><span class="o">=</span><span class="k">new</span> <span class="n">TGraph</span><span class="p">;</span>
 <span class="n">TH2F</span> <span class="o">*</span><span class="n">hsumresx</span> <span class="o">=</span> <span class="k">new</span> <span class="n">TH2F</span><span class="p">(</span><span class="s">&quot;hsumrex&quot;</span><span class="p">,</span><span class="s">&quot;hsumresx&quot;</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">-50</span><span class="p">,</span><span class="mi">50</span><span class="p">,</span><span class="mi">1000</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">8000</span><span class="p">);</span>
 <span class="kt">int</span> <span class="n">ngs</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
@@ -14460,7 +14461,8 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="&#20197;&#21051;&#24230;&#21518;&#30340;xrange&#26465;&#20026;&#21442;&#32771;&#26465;&#65292;&#21051;&#24230;y:0-31">&#20197;&#21051;&#24230;&#21518;&#30340;xrange&#26465;&#20026;&#21442;&#32771;&#26465;&#65292;&#21051;&#24230;y:0-31<a class="anchor-link" href="#&#20197;&#21051;&#24230;&#21518;&#30340;xrange&#26465;&#20026;&#21442;&#32771;&#26465;&#65292;&#21051;&#24230;y:0-31">&#182;</a></h3><div class="highlight"><pre><span></span><span class="n">TGraph</span> <span class="o">*</span><span class="n">grsyc</span><span class="p">[</span><span class="mi">32</span><span class="p">];</span>
+<h3 id="6.-&#20197;&#21051;&#24230;&#21518;&#30340;xrange&#26465;&#20026;&#21442;&#32771;&#26465;&#65292;&#21051;&#24230;y:0-31">6. &#20197;&#21051;&#24230;&#21518;&#30340;xrange&#26465;&#20026;&#21442;&#32771;&#26465;&#65292;&#21051;&#24230;y:0-31<a class="anchor-link" href="#6.-&#20197;&#21051;&#24230;&#21518;&#30340;xrange&#26465;&#20026;&#21442;&#32771;&#26465;&#65292;&#21051;&#24230;y:0-31">&#182;</a></h3><p><strong>example:</strong></p>
+<div class="highlight"><pre><span></span><span class="n">TGraph</span> <span class="o">*</span><span class="n">grsyc</span><span class="p">[</span><span class="mi">32</span><span class="p">];</span>
 <span class="kt">double</span> <span class="n">par2y</span><span class="p">[</span><span class="mi">32</span><span class="p">][</span><span class="mi">3</span><span class="p">];</span>
 <span class="n">TH2F</span> <span class="o">*</span><span class="n">hy</span><span class="p">[</span><span class="mi">32</span><span class="p">],</span> <span class="o">*</span><span class="n">hresy</span><span class="p">[</span><span class="mi">32</span><span class="p">];</span>
 <span class="n">TF1</span> <span class="o">*</span><span class="n">fpy1</span><span class="p">[</span><span class="mi">32</span><span class="p">],</span><span class="o">*</span><span class="n">fpy2</span><span class="p">[</span><span class="mi">32</span><span class="p">];</span> 
@@ -14524,7 +14526,8 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="&#20877;&#27425;&#22238;&#21040;x&#26465;&#36827;&#34892;&#21051;&#24230;&#65292;&#20197;&#21051;&#24230;&#21518;&#30340;y&#38754;&#26465;&#20026;&#21442;&#32771;&#26465;&#65292;&#21051;&#24230;x&#38754;&#65306;0&#65374;31">&#20877;&#27425;&#22238;&#21040;x&#26465;&#36827;&#34892;&#21051;&#24230;&#65292;&#20197;&#21051;&#24230;&#21518;&#30340;y&#38754;&#26465;&#20026;&#21442;&#32771;&#26465;&#65292;&#21051;&#24230;x&#38754;&#65306;0&#65374;31<a class="anchor-link" href="#&#20877;&#27425;&#22238;&#21040;x&#26465;&#36827;&#34892;&#21051;&#24230;&#65292;&#20197;&#21051;&#24230;&#21518;&#30340;y&#38754;&#26465;&#20026;&#21442;&#32771;&#26465;&#65292;&#21051;&#24230;x&#38754;&#65306;0&#65374;31">&#182;</a></h3><div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">ymax</span><span class="p">[</span><span class="mi">32</span><span class="p">],</span><span class="n">Ncy</span><span class="p">[</span><span class="mi">32</span><span class="p">];</span>
+<h3 id="7.-&#20877;&#27425;&#22238;&#21040;x&#26465;&#36827;&#34892;&#21051;&#24230;&#65292;&#20197;&#21051;&#24230;&#21518;&#30340;y&#38754;&#26465;&#20026;&#21442;&#32771;&#26465;&#65292;&#21051;&#24230;x&#38754;&#65306;0&#65374;31">7. &#20877;&#27425;&#22238;&#21040;x&#26465;&#36827;&#34892;&#21051;&#24230;&#65292;&#20197;&#21051;&#24230;&#21518;&#30340;y&#38754;&#26465;&#20026;&#21442;&#32771;&#26465;&#65292;&#21051;&#24230;x&#38754;&#65306;0&#65374;31<a class="anchor-link" href="#7.-&#20877;&#27425;&#22238;&#21040;x&#26465;&#36827;&#34892;&#21051;&#24230;&#65292;&#20197;&#21051;&#24230;&#21518;&#30340;y&#38754;&#26465;&#20026;&#21442;&#32771;&#26465;&#65292;&#21051;&#24230;x&#38754;&#65306;0&#65374;31">&#182;</a></h3><p><strong>example:</strong></p>
+<div class="highlight"><pre><span></span><span class="kt">int</span> <span class="n">ymax</span><span class="p">[</span><span class="mi">32</span><span class="p">],</span><span class="n">Ncy</span><span class="p">[</span><span class="mi">32</span><span class="p">];</span>
 <span class="n">TGraph</span> <span class="o">*</span><span class="n">grsx</span><span class="p">[</span><span class="mi">32</span><span class="p">];</span><span class="c1">//x&lt;-&gt;y</span>
 <span class="n">TGraph</span> <span class="o">*</span><span class="n">grsxc</span><span class="p">[</span><span class="mi">32</span><span class="p">];</span>
 <span class="kt">double</span> <span class="n">par2x</span><span class="p">[</span><span class="mi">32</span><span class="p">][</span><span class="mi">3</span><span class="p">];</span>
@@ -14598,7 +14601,8 @@ a.anchor-link {
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h3 id="&#26816;&#26597;&#21051;&#24230;&#27531;&#24046;">&#26816;&#26597;&#21051;&#24230;&#27531;&#24046;<a class="anchor-link" href="#&#26816;&#26597;&#21051;&#24230;&#27531;&#24046;">&#182;</a></h3><div class="highlight"><pre><span></span><span class="n">TGraph</span> <span class="o">*</span><span class="n">grall</span><span class="o">=</span><span class="k">new</span> <span class="n">TGraph</span><span class="p">;</span>
+<h3 id="8.-&#26816;&#26597;&#21051;&#24230;&#27531;&#24046;">8. &#26816;&#26597;&#21051;&#24230;&#27531;&#24046;<a class="anchor-link" href="#8.-&#26816;&#26597;&#21051;&#24230;&#27531;&#24046;">&#182;</a></h3><p><strong>example:</strong></p>
+<div class="highlight"><pre><span></span><span class="n">TGraph</span> <span class="o">*</span><span class="n">grall</span><span class="o">=</span><span class="k">new</span> <span class="n">TGraph</span><span class="p">;</span>
 <span class="n">TH2F</span> <span class="o">*</span><span class="n">hresall</span> <span class="o">=</span> <span class="k">new</span> <span class="n">TH2F</span><span class="p">(</span><span class="s">&quot;hresall&quot;</span><span class="p">,</span><span class="s">&quot;hresall&quot;</span><span class="p">,</span><span class="mi">100</span><span class="p">,</span><span class="mi">-50</span><span class="p">,</span><span class="mi">50</span><span class="p">,</span><span class="mi">1000</span><span class="p">,</span><span class="mi">200</span><span class="p">,</span><span class="mi">8000</span><span class="p">);</span>
 <span class="kt">int</span> <span class="n">ngsa</span><span class="o">=</span><span class="mi">0</span><span class="p">;</span>
 
@@ -14629,6 +14633,43 @@ a.anchor-link {
 </ul>
 
 </div>
+</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
+<div class="jp-Cell-inputWrapper">
+<div class="jp-InputArea jp-Cell-inputArea">
+<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
+<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
+     <div class="CodeMirror cm-s-jupyter">
+<div class=" highlight hl-c++"><pre><span></span><span class="o">!</span><span class="n">jupyter</span> <span class="n">nbconvert</span> <span class="n">example3_5</span><span class="p">.</span><span class="n">ipynb</span> <span class="o">--</span><span class="n">to</span> <span class="n">html</span>
+</pre></div>
+
+     </div>
+</div>
+</div>
+</div>
+
+<div class="jp-Cell-outputWrapper">
+
+
+<div class="jp-OutputArea jp-Cell-outputArea">
+
+<div class="jp-OutputArea-child">
+
+    
+    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
+
+
+<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
+<pre>[NbConvertApp] Converting notebook example3_5.ipynb to html
+
+
+</pre>
+</div>
+</div>
+
+</div>
+
+</div>
+
 </div>
 </body>
 
