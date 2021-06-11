@@ -14380,6 +14380,7 @@ a.anchor-link {
 <li>循环体，计算各种变量，并填入数据；</li>
 <li>将数据写入histogram/tree，存储并关系root文件；</li>
 </ol>
+<p>详细代码见李老师数据分析课homework1.1中的<a href="https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/tree.cc">tree.cc</a></p>
 <p><strong>代码示例</strong></p>
 <div class="highlight"><pre><span></span><span class="c1">////主函数声明</span>
     <span class="kt">void</span><span class="o">/</span><span class="n">Int_t</span> <span class="n">main</span><span class="p">(){}</span>
@@ -14425,6 +14426,7 @@ a.anchor-link {
 <li>将第jentry个事件数据填入Branch中指向的变量，填入对应的fistogram与tree；</li>
 <li>画图/关闭tree，写入新的tree，关闭新的root，关闭老的root；</li>
 </ol>
+<p>详细代码见李老师数据分析课homework1.1中的<a href="https://dragon-xi.github.io/zhli-data-ana-homework/homework1.1/homework1.1-sum.html">homework1.1-sum</a></p>
 <p><strong>代码示例</strong></p>
 <div class="highlight"><pre><span></span><span class="c1">////打开名为tree.root的文件（只读），并指定指针为ipf，脚本最后注意关闭文件ipf-&gt;Close();</span>
     <span class="n">TFile</span> <span class="o">*</span> <span class="n">ipf</span> <span class="o">=</span> <span class="k">new</span> <span class="n">TFile</span><span class="p">(</span><span class="s">&quot;tree.root&quot;</span><span class="err">，</span><span class="s">&quot;read&quot;</span><span class="p">);</span>
@@ -14540,6 +14542,7 @@ a.anchor-link {
 <li>直接添加想要的内容，并在Loop()中添加分析程序，无需从头编写（如2.2节）；</li>
 <li>对于编写可编译执行程序，采用继承的方法链接该文件，免去了键入输入文件tree结构的内容；</li>
 </ul>
+<p>详细方法见李老师数据处理课homework2.1中的<a href="https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/example_li/exercise2.4.html">exercise2.4</a>以及<a href="https://dragon-xi.github.io/zhli-data-ana-homework/homework2.1/homework2.1_Code.html">作业分析代码</a></p>
 <h3 id="&#35843;&#29992;MakeClass&#26041;&#27861;">&#35843;&#29992;MakeClass&#26041;&#27861;<a class="anchor-link" href="#&#35843;&#29992;MakeClass&#26041;&#27861;">&#182;</a></h3><div class="highlight"><pre><span></span><span class="n">tree</span><span class="o">-&gt;</span><span class="n">MakeClass</span><span class="p">(</span><span class="s">&quot;ppac&quot;</span><span class="p">);</span><span class="c1">//输出ppac.h和ppac.C文件</span>
      <span class="err">修改</span><span class="n">ppac</span><span class="p">.</span><span class="n">C中Loop部分后</span>
     <span class="n">gROOT</span><span class="o">-&gt;</span><span class="n">ProcessLine</span><span class="p">(</span><span class="s">&quot;.L ppac.C&quot;</span><span class="p">);</span><span class="c1">//ROOT命令行.L ppac.C</span>
