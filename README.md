@@ -11,7 +11,7 @@
 
 ## 本人完成作业期间汇总的ROOT代码
 
-- [ROOT命令个人总结](https://dragon-xi.github.io/zhli-data-ana-homework/roottips/roottips_xi.html)
+- [ROOT命令个人总结]([ROOT命令个人总结](https://dragon-xi.github.io/summart/ROOT/roottips_xi.html)
 
 # Chapter 1 ROOT TTree 初阶
 
