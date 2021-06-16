@@ -7,7 +7,7 @@
 ## 李智焕老师课程链接
 
 - [《核物理与粒子物理实验方法》](https://zhihuanli.github.io/Experimental-Method-in-Nuclear-Physics/)
-- [《核物理实验数据分析与处理》](https://zhihuanli.github.io/Data-Analysis-in-Nuclear-Physics-Course/)
+- [《核物理实验数据分析与处理》](https://zhihuanli.github.io/Experimental-Data-Analysis-Course/)
 
 ## 本人完成作业期间汇总的ROOT代码
 
