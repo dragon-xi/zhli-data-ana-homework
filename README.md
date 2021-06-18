@@ -4,7 +4,7 @@
 
 本版内容为北京大学李智焕老师开设的《核物理实验数据分析与处理》课的课程作业，其中涉及的大部分代码均来自李老师课程课件，特此说明。本网页内容仅限学习交流使用，如需使用其代码凡请联系并告知[北京大学李智焕老师](https://faculty.pku.edu.cn/lizhihuan/zh_CN/index.htm)。最后感谢李老师一年来的帮助与指导！
 
-## 李智焕老师课程链接
+## 李智焕老师课程链接（详细信息以及最新内容请看[李老师github](https://github.com/zhihuanli)）
 
 - [《核物理与粒子物理实验方法》](https://zhihuanli.github.io/Experimental-Method-in-Nuclear-Physics/)
 - [《核物理实验数据分析与处理》](https://zhihuanli.github.io/Experimental-Data-Analysis-Course/)
