@@ -14625,7 +14625,8 @@ a.anchor-link {
     <span class="n">pediffgr</span> <span class="o">=</span> <span class="k">new</span> <span class="n">TGraph</span><span class="p">(</span><span class="mi">4</span><span class="p">,</span> <span class="n">meantmp</span><span class="p">,</span> <span class="n">diff</span><span class="p">);</span>
     <span class="n">TString</span> <span class="n">pediffname</span><span class="p">;</span>
     <span class="n">pediffname</span><span class="p">.</span><span class="n">Form</span><span class="p">(</span><span class="s">&quot;pediff[%d]&quot;</span><span class="p">,</span><span class="n">strip</span><span class="p">);</span>
-    <span class="n">pediffgr</span><span class="o">-&gt;</span><span class="n">SetName</span><span class="p">(</span><span class="n">pediffname</span><span class="p">.</span><span class="n">Data</span><span class="p">());</span>
+    <span class="c1">//pediffgr-&gt;SetName(pediffname.Data());</span>
+    <span class="n">pediffgr</span><span class="o">-&gt;</span><span class="n">SetNameTitle</span><span class="p">(</span><span class="n">pediffname</span><span class="p">.</span><span class="n">Data</span><span class="p">(),</span> <span class="n">pediffname</span><span class="p">.</span><span class="n">Data</span><span class="p">());</span>
     <span class="n">dir_pediff</span><span class="o">-&gt;</span><span class="n">cd</span><span class="p">();</span>
     <span class="n">pediffgr</span><span class="o">-&gt;</span><span class="n">Write</span><span class="p">();</span>
 <span class="p">}</span>
@@ -14797,7 +14798,7 @@ a.anchor-link {
 <div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
 <pre>TFile**		s4cali.root	
  TFile*		s4cali.root	
-  OBJ: TTree	tree	pe calibration : 0 at: 0x7fd3dc145410
+  OBJ: TTree	tree	pe calibration : 0 at: 0x7f0d2c145560
   KEY: TDirectoryFile	dir_pefit;1	dir_pefit
   KEY: TDirectoryFile	dir_pecali;1	dir_pecali
   KEY: TDirectoryFile	dir_pediff;1	dir_pediff
